@@ -1,0 +1,140 @@
+.tab-group{
+  width: full;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.tab-group2{
+  width: full;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.tab{
+  width: 180px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  cursor:pointer;
+  background-color: #e3e3e3;
+  color: #929292;
+  border-radius: 5px;
+  user-select: none;
+  transition: .4s;
+}
+
+.tab2{
+  width: 180px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  cursor:pointer;
+  background-color: #e3e3e3;
+  color: #929292;
+  border-radius: 5px;
+  user-select: none;
+  transition: .4s;
+}
+
+.tab:hover{
+  background-color: rgb(198, 196, 196);
+}
+
+.tab.is-active:hover{
+  background-color: #1b3b88;
+}
+
+.tab2:hover{
+  background-color: rgb(198, 196, 196);
+}
+
+.tab2.is-active:hover{
+  background-color: #1b3b88;
+}
+
+.panel-group{
+  margin-top: 25px;
+  height: auto;
+  border:solid 3px #c4d6ff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.panel2-group{
+  margin-top: 25px;
+  height: auto;
+  border:solid 3px #c4d6ff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.panel{
+  display:none;
+}
+
+.panel2{
+  display:none;
+}
+
+.tab.is-active{
+  background-color: #00216f;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.tab2.is-active2{
+  background-color: #00216f;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.panel.is-show{
+  margin-top: 10px;
+  display:block;
+  border-radius: 5px;
+}
+
+.panel2.is-show2{
+  margin-top: 10px;
+  display:block;
+  border-radius: 5px;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.img_div{
+  margin-top: 40px;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;/*アスペクト比（縦横比）を指定 */
+
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+}
+
+.map{
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  border: 3px solid #c4d6ff;
+  border-radius: 10px;
+}
+
+.main-sp{
+  text-align: center;
+  color: rgb(69, 69, 69);
+}

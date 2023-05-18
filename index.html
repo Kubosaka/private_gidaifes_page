@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="slider.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+      <div class="img_div">
+        <ul class="slider">
+          <li><img src="img/42st_nutfes_cp.jpg" alt=""></li>
+          <li><img src="img/gidai1.jpeg" alt=""></li>
+          <li><img src="img/gidai2.jpeg" alt=""></li>
+          <li><img src="img/gidai3.jpeg" alt=""></li>
+          <li><img src="img/gidai4.jpeg" alt=""></li>
+          <li><img src="img/gidai5.jpg" alt=""></li>
+        </ul>
+      </div>
+      <div>
+        <!--タブ-->
+        <div class="tab-group">
+          <label class="tab tab-A is-active">概要</label>
+          <label class="tab tab-B">News</label>
+          <label class="tab tab-C">参加団体</label>
+          <label class="tab tab-D">アクセス</label>
+          <label class="tab tab-E">FAQ/問い合わせ</label>
+        </div>
+        <!--タブを切り替えて表示するコンテンツ-->
+        <div class="panel-group">
+          <!-- 概要ページ -->
+          <div class="panel tab-A is-show">
+            <div class="main-sp">
+              <p>Coming soon ...</p>
+            </div>
+          </div>
+          <!-- Newsページ -->
+          <div class="panel tab-B">
+            <div class="main-sp">
+              <p>Coming soon ...</p>
+            </div>
+          </div>
+          <!-- 参加団体ページ -->
+          <div class="panel tab-C">
+            <div class="main-sp">
+              <p>Coming soon ...</p>
+            </div>
+          </div>
+          <!-- アクセス -->
+          <div class="panel tab-D">
+            <div><h3 class="main-sp">会場の位置</3></div>
+            <div class="map">
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.551323760387!2d138.77540157647329!3d37.424078632283106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5aedc609c6e15%3A0x75a37d3645c0f37a!2z6ZW35bKh5oqA6KGT56eR5a2m5aSn5a2m!5e0!3m2!1sja!2sjp!4v1684330507361!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="main-sp">
+              <h3>交通アクセス</h3>
+              <p>JR東京からJR長岡駅まで, 上越新幹線で約90分</p>
+              <p>高速道路 関越自動車道, 北陸自動車道長岡I.Cから約5分</p>
+              <p>バス 長岡駅大手(西)口7番線から技大前行き乗車 約30分</p>
+              <p>タクシー 長岡駅大手(西)口から8.5km 約20分</p>
+            </div>
+          </div>
+          <!--FAQ/問い合わせ -->
+          <div class="panel tab-E">
+              <div class="tab-group2">
+                <label class="tab2 tab-1 is-active2">FAQ</label>
+                <label class="tab2 tab-2">問い合わせ</label>
+              </div>
+              <div class="panel-group2">
+                <div class="panel2 tab-1 is-show2">
+                  <div class="main-sp"></div>
+                </div>
+                <div class="panel2 tab-2">
+                  <div class="main-sp">
+                    <p>こちらからお問い合わせ下さい</p>
+                    <a href="">フォーム</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="./index.js"></script>
+    </body>
+</html>
