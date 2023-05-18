@@ -138,3 +138,66 @@ iframe {
   text-align: center;
   color: rgb(69, 69, 69);
 }
+
+.main-sp2{
+  text-align: center;
+  color: rgb(69, 69, 69);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.faq-main{
+  color: rgb(69, 69, 69);
+  margin-top: 30px;
+  margin-left: auto; 
+  margin-right: auto; 
+  justify-content: center;
+
+}
+
+.detail{
+  margin-bottom: 20px;
+  font-size: large;
+  
+}
+
+
+details > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: rgb(212, 241, 252);
+  border-radius: 5px;
+  transition: .4s;
+}
+ 
+details > summary:hover{
+  background-color: #00216f;
+  color: white;
+}
+details > p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: solid 2px rgb(212, 241, 252);
+}
+
+table{
+  margin: auto;
+}
+
+.formlink{
+  padding-top: 20px;
+  cursor: pointer;
+  background: linear-gradient(currentColor 0 0) var(--p, 0) 100% /var(--d, 0) 3px no-repeat;
+  transition: 0.3s, background-position 0s 0.3s;
+  text-decoration:none
+}
+
+.formlink:hover{
+  --d: 100%;
+  --p: 100%;
+}
+

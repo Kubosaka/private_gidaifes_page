@@ -21,16 +21,16 @@
       <div>
         <!--タブ-->
         <div class="tab-group">
-          <label class="tab tab-A is-active">概要</label>
+          <label class="tab tab-A">概要</label>
           <label class="tab tab-B">News</label>
           <label class="tab tab-C">参加団体</label>
           <label class="tab tab-D">アクセス</label>
-          <label class="tab tab-E">FAQ/問い合わせ</label>
+          <label class="tab tab-E is-active">FAQ/問い合わせ</label>
         </div>
         <!--タブを切り替えて表示するコンテンツ-->
         <div class="panel-group">
           <!-- 概要ページ -->
-          <div class="panel tab-A is-show">
+          <div class="panel tab-A">
             <div class="main-sp">
               <p>Coming soon ...</p>
             </div>
@@ -64,19 +64,41 @@
             </div>
           </div>
           <!--FAQ/問い合わせ -->
-          <div class="panel tab-E">
+          <div class="panel tab-E is-show">
               <div class="tab-group2">
                 <label class="tab2 tab-1 is-active2">FAQ</label>
                 <label class="tab2 tab-2">問い合わせ</label>
               </div>
               <div class="panel-group2">
                 <div class="panel2 tab-1 is-show2">
-                  <div class="main-sp"></div>
+                  <div class="faq-main">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="detail">
+                            <details>
+                              <summary>Q. いつありますか</summary>
+                              <p>A. 明日です</p>
+                            </details>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="detail">
+                            <details>
+                              <summary>Q. ほんとですか</summary>
+                              <p>A. うそです</p>
+                            </details>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
                 <div class="panel2 tab-2">
-                  <div class="main-sp">
-                    <p>こちらからお問い合わせ下さい</p>
-                    <a href="">フォーム</a>
+                  <div class="main-sp2">
+                    <a href="" class="formlink">こちらからお問い合わせ下さい</a>
                   </div>
                 </div>
               </div>
